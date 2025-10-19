@@ -1,0 +1,120 @@
+.bannerContainer{
+    margin-bottom: 20px;
+    margin-top: 100px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.bannerImage{
+    width: 100%;
+}
+
+.trendingHeading,.signatureHeading,.cartHeading{
+    margin: 20px 60px;
+    font-size: 30px;
+    letter-spacing: 4px;
+    word-spacing: 6px;
+    color: #750404;
+}
+
+.trendingItems,.signatureItems,.cItems,.cartDetails{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+/* .item, */
+.checkoutBody{ 
+    width: 220px;
+    height: 390px;
+    margin: 10px 10px;
+    text-decoration: none;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    padding: 5px;
+    align-items: center;
+}
+
+.item:hover{
+    border: 5px solid #9d9467;
+    border-radius: 10px;
+}
+
+.itemImage{
+    width: 200px;
+    height: 250px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.itemName{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    margin: 4px;
+    color: #750404;
+    text-decoration: none;
+}
+
+.itemPrice{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    margin: 4px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.itemId{
+    color: rgb(255, 255, 255);
+}
+
+.itemButton,.removeItemButton{
+    display: flex;
+    justify-content: center;
+    color: #750404;
+    background-color: #fcf3c7;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+    width: 200px;
+    margin-top: 10px;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.removeItemButton{
+    color: #fcf3c7;
+    background-color: #750404;
+}
+
+/* for favourites */
+.item {
+  position: relative;
+  border: 5px solid #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.favourites {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: none;
+  border: none;
+  font-size: 50px;
+  cursor: pointer;
+  color: #ffffff;
+  padding-right: 10px;
+}
+
+.favourites:hover {
+  transform: scale(1.2);
+}
+
+.favourites.active {
+  color: red;    /* when clicked */
+}

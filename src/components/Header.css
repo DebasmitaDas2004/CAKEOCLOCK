@@ -1,0 +1,164 @@
+ /* 1) all properties */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Cinzel', serif;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+/* 2) header part */
+header{
+    display: flex;
+    background-color: #fff;
+    padding: 2px 0;
+    border-bottom: 4px solid #fcf3c7;  
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    position: fixed;   /* keeps it stuck at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;     /* makes sure it stays above other content */
+}
+
+.logo{
+    height: 70px;
+    object-fit: contain;
+    padding: 0px;
+    border: 0px;
+    border-radius: 100%;
+}
+
+.logoContainer{
+    margin-left: 4%;
+}
+
+.actionBar {
+    margin-right: 4%;
+  display: flex;
+  align-items: center;
+  gap: 25px;              /* spacing between groups */
+  justify-content: flex-end; /* keep everything aligned to the right */
+  width: auto;  
+}
+.navBar{
+    display: flex;
+    width: 650px;
+    justify-content: space-evenly;
+}
+
+.navBar a{
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    padding: 28px 0px;
+    border-bottom:5px solid #ffffff;
+}
+
+.navBar a:hover{
+    border-bottom:5px solid #750404;
+    border-radius: 5px;
+}
+
+.navBar a sup{
+    font-size: 8px;
+    color: #18960c;
+}
+
+.searchBar{
+    height: 40px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.searchIcon{
+    box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+    background-color: #fcf3c7;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    color: #3f0404;
+}
+
+.searchInput{
+    color: black;
+    background-color: #fcf3c7;
+    flex-grow: 1;
+    height: 40px;
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.favouriteIcon,
+.cartIcon {
+  box-sizing: content-box;
+  height: 20px;
+  padding: 10px;
+  color: #750404;
+  background-color: #fcf3c7;
+  border-radius: 100%;
+}
+.actionContainer {
+  text-decoration: none;
+  position: relative; /* needed for badge positioning */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.cartIcon{
+    width: 20px;
+}
+/* .cartItemCounter{
+    color: white;
+    white-space: nowrap;
+    text-align: center;
+    background-color: #750404;
+    position: relative;
+    border-radius: 100%;
+    line-height: 10px;
+    height: 10px;
+    padding: 0 6px;
+    top: -20px;
+    left: -9px;
+    font-size: 15px;
+} */
+
+.loginButton{
+    box-sizing: content-box;
+    height: 20px;
+    width: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    color: #750404;
+    background-color: #fcf3c7;
+    cursor: pointer;
+}
+
+.cartItemCounter,
+.favouriteItemCounter {
+  color: white;
+  background-color: #750404;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  border-radius: 50%;
+  line-height: 1;
+  padding: 2px 6px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.actionGroup {
+ display: flex;
+  align-items: center;
+  gap: 15px; /* space between fav and cart */
+}

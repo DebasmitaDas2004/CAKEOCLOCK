@@ -1,0 +1,74 @@
+/* Page container */
+.favouritesPage {
+  padding: 40px 60px;
+  text-align: center;
+}
+
+/* Page title */
+.Favtitle {
+  font-size: 28px;
+  margin-bottom: 30px;
+  letter-spacing: 3px;
+  color: #750404;
+}
+
+/* Empty message */
+.empty {
+  font-size: 18px;
+  color: #888;
+  margin-top: 40px;
+}
+
+/* Favourites list */
+.favouritesPage ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* Individual favourite item */
+.favouritesPage li {
+  background-color: #fcf3c7;
+  border-radius: 15px;
+  padding: 20px;
+  width: 220px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Item image */
+.favouritesPage img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* Item text */
+.favouritesPage span {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 12px;
+  font-weight: bold;
+  color: #750404;
+}
+
+/* Remove button */
+.favouritesPage button {
+  background-color: #750404;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.favouritesPage button:hover {
+  background-color: #a52a2a;
+}

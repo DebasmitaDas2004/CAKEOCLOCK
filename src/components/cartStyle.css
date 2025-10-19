@@ -1,0 +1,136 @@
+
+.cartContainer {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #600000;
+}
+
+.cartContent {
+  display: flex;
+  flex-direction: column; /* 👈 stack vertically */
+  align-items: center;
+  gap: 40px;
+}
+
+/* Cart Section */
+.cartItemsSection {
+  width: 100%;
+  max-width: 900px;
+}
+
+.cartTitle {
+  font-size: 22px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.cartItems {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.cartItem {
+  text-align: center;
+  background-color: #fff7e0;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  width: 250px;
+  
+}
+
+.cartImage {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.cartName {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 5px 0;
+}
+
+.cartPrice {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.removeFromCart {
+  color: white;
+  background-color: #750404;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  padding: 6px 12px;
+  cursor: pointer;
+
+  
+}
+
+.removeFromCart:hover {
+  background-color: #a10a0a;
+}
+
+/* Checkout Section */
+.checkoutSection {
+  width: 100%;
+  max-width: 400px;
+}
+
+.checkoutTitle {
+  font-size: 20px;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.checkoutBox {
+  background-color: #fcf3c7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.checkoutBox p {
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+.totalPrice {
+  font-weight: bold;
+  color: red;
+  font-size: 16px;
+}
+.disem{
+    display: flex;
+    justify-content: center;
+
+}
+
+.placeOrderButton {
+  display: block;
+  width: 100%;
+  background-color: #09ac06;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  height: 40px;
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.placeOrderButton:hover {
+  background-color: #057805;
+}
