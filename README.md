@@ -1,1 +1,2 @@
 🍰 CAKEOCLOCK – A responsive bakery shop website featuring an elegant UI, add-to-cart with item counter, favorites section, and local storage support. Designed to deliver a smooth browsing and shopping experience across all devices.
+ 
